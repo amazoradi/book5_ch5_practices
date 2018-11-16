@@ -4,13 +4,14 @@ class EmployeeList extends Component {
   render() {
     return (
       <section className="employees">
+          <h2>Our Employees</h2>
         {
           this.props.employees.map(employee =>
             <div key={employee.id}>
-              {employee.name}
-            </div>
-          )
-        }
+          {employee.name}
+        </div>
+        )
+      }
       </section>
     );
   }
@@ -18,3 +19,6 @@ class EmployeeList extends Component {
 
 
 export default EmployeeList
+
+
+
