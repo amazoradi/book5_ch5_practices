@@ -46,7 +46,7 @@ class AnimalList extends Component {
 
   render() {
     return (
-      <section className="animals">
+      <section className="animals list">
         <h2>Our Animals</h2>
         {
           this.props.animals.map(animal =>
