@@ -14,5 +14,9 @@ code {
 }
 
 .list {
-  margin: 100px 0px 0px 25px;
+  margin: 75px 0px 0px 25px;
+}
+
+.list div {
+  margin: 10px 0px;
 }
